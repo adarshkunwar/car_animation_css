@@ -4,6 +4,48 @@
     box-sizing: border-box;
 }
 
+.sky {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -7;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+.mountain {
+    display: inline-block;
+}
+
+.mountain1 {
+    margin-top: 20vh;
+    width: 50vw;
+    height: 60vh;
+    background-color: rgba(165, 42, 42, 0.712);
+    
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.mountain2 {
+    margin-left: 25vw;
+    margin-top: -40vh;
+    width: 50vw;
+    height: 60vh;
+    background-color: rgba(165, 42, 42, 0.712);
+    
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+
+}
+
+.mountain3 {
+    margin-left: 55vw;
+    margin-top: -80vh;
+    width: 50vw;
+    height: 60vh;
+    background-color: rgba(165, 42, 42, 0.712);
+    
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+
+}
 
 .camera {
     width: 100vw;
